@@ -15,6 +15,7 @@
  */
 
 import * as types from '@opentelemetry/api';
+import { Task, Zone } from './zone-hack';
 
 /**
  * Async Zone task
